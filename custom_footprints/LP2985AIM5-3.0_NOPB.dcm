@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LP2985AIM5-3.0_NOPB
+D Micropower 150-mA Low-Noise Ultra-Low-Dropout Regulator in SOT-23 packages
+K
+F http://www.ti.com/lit/ds/symlink/lp2985-n.pdf
+$ENDCMP
+#
+#End Doc Library

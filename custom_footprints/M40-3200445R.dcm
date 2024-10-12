@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP M40-3200445R
+D 1.00mm Pitch DIL Vertical SMT Pin Header, location pegs, gold, 4+4 contacts, pick & place (Tape & Reel packing)
+K
+F https://cdn.harwin.com/pdfs/M40-320R.pdf
+$ENDCMP
+#
+#End Doc Library

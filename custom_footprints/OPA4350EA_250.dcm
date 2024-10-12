@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP OPA4350EA_250
+D Texas Instruments OPA4350EA/250, Quad Op Amp, 38MHz CMOS, Rail to Rail, 3 V, 5 V, 16-Pin SSOP
+K
+F http://www.ti.com/lit/gpn/opa4350
+$ENDCMP
+#
+#End Doc Library

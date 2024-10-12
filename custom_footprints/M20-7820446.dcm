@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP M20-7820446
+D M20 Socket, Sil, Vertical, 4W,2.54Mm HARWIN 2.54mm 4 Way 1 Row Straight PCB Socket Through Hole Socket Strip
+K
+F https://cdn.harwin.com/pdfs/M20-782.pdf
+$ENDCMP
+#
+#End Doc Library

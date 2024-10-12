@@ -1,4 +1,4 @@
-23839630761835459
+23879674066972609
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64693,13 +64693,6 @@ Yellow 5381 Series LED
 0
 2
 2
-LIB_LP2985AIM5-3.0_NOPB(1)
-SOT95P280X145-5N
-DBV (R-PDSO-G5)
-Integrated Circuit
-0
-5
-5
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -96743,6 +96736,132 @@ Varistor
 Varistor_Panasonic_VF
 Panasonic VF series varistor, 6x8mm body, 3.2mm height, https://mediap.industry.panasonic.eu/assets/imported/industrial.panasonic.com/cdbs/www-data/pdf/AWA0000/AWA0000C4.pdf
 Varistor VF
+0
+2
+2
+emc
+36471662
+3-647166-2-3
+Connector
+0
+2
+2
+emc
+BLM21AG102BH1J
+BLM21_3 L=2.0 W=1.25 T=0.85
+Filter
+0
+2
+2
+emc
+C0805
+C0805
+Capacitor
+0
+2
+2
+emc
+DIP794W53P254L3467H457Q28N
+28P3 7.62 row pitch
+Integrated Circuit
+0
+28
+28
+emc
+FUSC4632X85N
+MF-MSMF050
+Fuse
+0
+2
+2
+emc
+HDRV8W69P0X254_1X8_2032X251X1641P
+87891-0808
+Connector
+0
+8
+8
+emc
+HUSSP8W30P100_2X4_400X320X365P
+M40-3010646
+Connector
+0
+8
+8
+emc
+LT8636HVPBF
+LT8636HV#PBF-1
+Integrated Circuit
+0
+25
+25
+emc
+M225320305R
+M22-5320305R-2
+Connector
+0
+6
+6
+emc
+OPA4350 SOP64P600X175-16N
+DBQ0016A
+Integrated Circuit
+0
+16
+16
+emc
+QFN50P500X500X100-33N-D
+ATMEGA16U2-MU
+Integrated Circuit
+0
+33
+33
+emc
+RHDR4W70P0X254_1X4_1056X250X865P
+M20-7820446
+Connector
+0
+4
+4
+emc
+SHDR10W64P0X250_1X10_2740X575X700P
+B10B-XH-A(LF)(SN)-
+Connector
+0
+10
+10
+emc
+SOP63P600X175-16N
+
+
+0
+16
+16
+emc
+SOP64P600X175-16N
+DBQ0016A
+Integrated Circuit
+0
+16
+16
+emc
+SOT95P280X145-5N
+DBV (R-PDSO-G5)
+Integrated Circuit
+0
+5
+5
+emc
+VARC1608X55N
+CG0603 Series
+Varistor
+0
+2
+2
+homegrown
+C0805C112F5GACTU___C0805
+C0805
+Capacitor
 0
 2
 2
