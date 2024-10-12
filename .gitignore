@@ -1,0 +1,9 @@
+# KiCad Backups 
+*backups/ 
+*.zip 
+
+# Lock files 
+*.lck 
+
+# Debug files 
+*.debug
