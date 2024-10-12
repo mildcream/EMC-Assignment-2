@@ -1,0 +1,16 @@
+.87891-0808 :1 ;Headers & Wire Housings 2.54MM PITCH SRSW T/H HEADER 8 CKT
+HDRV8W69P0X254_1X8_2032X251X1641P
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5" 6="6" 7="7" 8="8"
+*MXP 8
+*DFN 87891-0808
+~!Mouser Part Number (538-87891-0808)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Molex/87891-0808?qs=iLbezkQI%252Bsh%252BavKMBAJgwA%3D%3D)
+~!Manufacturer_Name (Molex)
+~!Manufacturer_Part_Number (87891-0808)
+~!Link Datasheet (https://www.molex.com/pdm_docs/sd/878910808_sd.pdf)
+~!Height (16.41mm)
+~!3D_Model (87891-0808)
+"87891-0808"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 

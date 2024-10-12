@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'OPA4350EA_250'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "OPA4350EA/250" (!) = "", "SOP64P600X175-16N", "Small Outline Packages", "595-OPA4350EA/250", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPA4350EA-250?qs=wgAEGBTxy7lb0jb8rTnMIw%3D%3D", "Texas Instruments OPA4350EA/250, Quad Op Amp, 38MHz CMOS, Rail to Rail, 3 V, 5 V, 16-Pin SSOP", "http://www.ti.com/lit/gpn/opa4350", "1.75 mm"
+END_PART
+
+END.

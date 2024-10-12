@@ -1,0 +1,9 @@
+Manufacturer=Harwin
+PartNumber=M22-5320305R
+PartCategory=Connector
+PackageCategory=Other
+PinCount=6
+Version=2.2
+Released=2021-11-16 08:28:32
+Downloaded=2024-10-08 13:03:53
+3D=Y

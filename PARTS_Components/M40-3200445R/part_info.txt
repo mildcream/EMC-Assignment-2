@@ -1,0 +1,9 @@
+Manufacturer=Harwin
+PartNumber=M40-3200445R
+PartCategory=Connector
+PackageCategory=Header, Unshrouded - Straight SMD Pin
+PinCount=8
+Version=5.1
+Released=2018-06-07 22:57:02
+Downloaded=2024-10-08 13:13:26
+3D=Y

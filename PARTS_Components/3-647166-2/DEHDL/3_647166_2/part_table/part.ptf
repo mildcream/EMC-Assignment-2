@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '3_647166_2'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TE Connectivity", "3-647166-2" (!) = "", "36471662", "Other", "571-3-647166-2", "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/3-647166-2?qs=xsTFCgGnzbJU1qz6Np9kzA%3D%3D", "Headers & Wire Housings HDR 1X02P VRT T/H", "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F647166%7FR1%7Fpdf%7FEnglish%7FENG_CD_647166_R1.pdf%7F3-647166-2", "10.66 mm"
+END_PART
+
+END.

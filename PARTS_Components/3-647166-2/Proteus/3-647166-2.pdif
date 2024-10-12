@@ -1,0 +1,110 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "3-647166-2"
+   (description "Headers & Wire Housings HDR 1X02P VRT T/H")
+   (family "CON")
+   (package "36471662")
+   (attribute "Datasheet Link" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F647166%7FR1%7Fpdf%7FEnglish%7FENG_CD_647166_R1.pdf%7F3-647166-2")
+   (attribute "Geometry.Height" "10.66mm")
+   (attribute "Mouser Part Number" "571-3-647166-2")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/3-647166-2?qs=xsTFCgGnzbJU1qz6Np9kzA%3D%3D")
+   (attribute "Manufacturer_Name" "TE Connectivity")
+   (attribute "Manufacturer_Part_Number" "3-647166-2")
+   (gate
+    (symbol "3-647166-2")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "3-647166-2"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -100) (pt 200 -100) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "36471662"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -2.54 3.175)
+      (pt 2.54 3.175)
+      (pt 2.54 -3.175)
+      (pt -2.54 -3.175)
+      (pt -2.54 3.175))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.54 5.415)
+      (pt 3.54 5.415)
+      (pt 3.54 -5.505)
+      (pt -3.54 -5.505)
+      (pt -3.54 5.415))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 0 -3.175)
+      (pt -2.54 -3.175)
+      (pt -2.54 3.175))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 1.27 3.175)
+      (pt 2.54 3.175)
+      (pt 2.54 -3.175))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 1.27 -4.9)
+      (arc (pt 1.270 -4.900) (pt 1.170 -5.100) (pt 1.370 -4.900) (start 180.0) (sweep 90.0))
+      (pt 1.27 -5.1)
+      (arc (pt 1.270 -5.100) (pt 1.170 -5.100) (pt 1.370 -4.900) (start 180.0) (sweep -90.0))
+      (pt 1.27 -4.9))))
+   (leg 1 (pt 1.270 -1.520) (padstack 0))
+   (leg 2 (pt -1.270 1.520) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.780 5.970 0 0 90.000))
+   )
+   (model "3-647166-2.stp"
+    (euler 0 0 0)
+    (offset 0 -0.3499999940395355 3.180000066757202)
+   )
+  )
+ )
+)

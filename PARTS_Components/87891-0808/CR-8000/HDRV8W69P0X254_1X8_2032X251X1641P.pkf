@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "HDRV8W69P0X254_1X8_2032X251X1641P"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "HDRV8W69P0X254_1X8_2032X251X1641P")
+        (spec "default")
+    )
+)

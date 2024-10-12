@@ -1,0 +1,132 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "M22-5320305R"
+   (description "2.00mm (0.079\") Pitch DIL Vertical SMT Pin Header, gold, pick & place (Tape & Reel packing), 3+3 contacts")
+   (family "CON")
+   (package "M225320305R")
+   (attribute "Datasheet Link" "https://cdn.harwin.com/pdfs/M22-532R.pdf")
+   (attribute "Geometry.Height" "7.3mm")
+   (attribute "Mouser Part Number" "855-M22-5320305R")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M22-5320305R?qs=vF78I%252BjhbY%252BtF2P5DN1inA%3D%3D")
+   (attribute "Manufacturer_Name" "Harwin")
+   (attribute "Manufacturer_Part_Number" "M22-5320305R")
+   (gate
+    (symbol "M22-5320305R")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+    (pin "4" 4 PS)
+    (pin "5" 5 PS)
+    (pin "6" 6 PS)
+   )
+  )
+  (symbol "M22-5320305R"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "M225320305R"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3 2)
+      (pt 3 2)
+      (pt 3 -2)
+      (pt -3 -2)
+      (pt -3 2))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4 4.2)
+      (pt 4 4.2)
+      (pt 4 -4.2)
+      (pt -4 -4.2)
+      (pt -4 4.2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 3 2)
+      (pt 3 -2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3 2)
+      (pt -3 -2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2 -3.6)
+      (arc (pt -2.000 -3.600) (pt -2.050 -3.700) (pt -1.950 -3.600) (start 180.0) (sweep 90.0))
+      (pt -2 -3.7)
+      (arc (pt -2.000 -3.700) (pt -2.050 -3.700) (pt -1.950 -3.600) (start 180.0) (sweep -90.0))
+      (pt -2 -3.6))))
+   (leg 1 (pt -2.000 -2.375) (padstack 0))
+   (leg 2 (pt -2.000 2.375) (padstack 0))
+   (leg 3 (pt 0.000 -2.375) (padstack 0))
+   (leg 4 (pt 0.000 2.375) (padstack 0))
+   (leg 5 (pt 2.000 -2.375) (padstack 0))
+   (leg 6 (pt 2.000 2.375) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.000 1.650 0 0 90.000))
+   )
+   (model "M22-5320305R.stp"
+    (euler 90 0 0)
+    (offset -2 0 2.5)
+   )
+  )
+ )
+)

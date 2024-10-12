@@ -1,0 +1,16 @@
+.CG0603MLC-05E :1 ;Varistor, ESD Protector, 5VDC,20V,0603 Bourns MLC Series Power Varistor 0.5pF 20V 0603 Case
+VARC1608X55N
+*STM RV
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN CG0603MLC-05E
+~!Mouser Part Number (652-CG0603MLC-05E)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Bourns/CG0603MLC-05E?qs=lDok7oSghXVLNKMK69q%252BFQ%3D%3D)
+~!Manufacturer_Name (Bourns)
+~!Manufacturer_Part_Number (CG0603MLC-05E)
+~!Link Datasheet (-)
+~!Height (0.55mm)
+~!3D_Model (CG0603MLC-05E)
+CG0603MLC-05E
+1.1!U 2.1!U 

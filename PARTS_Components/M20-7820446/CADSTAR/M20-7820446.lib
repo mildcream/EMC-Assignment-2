@@ -1,0 +1,16 @@
+.M20-7820446 :1 ;M20 Socket, Sil, Vertical, 4W,2.54Mm HARWIN 2.54mm 4 Way 1 Row Straight PCB Socket Through Hole Socket Strip
+RHDR4W70P0X254_1X4_1056X250X865P
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4"
+*MXP 4
+*DFN M20-7820446
+~!Mouser Part Number (855-M20-7820446)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Harwin/M20-7820446?qs=vF78I%252BjhbY8%252Bno0H8mp9XA%3D%3D)
+~!Manufacturer_Name (Harwin)
+~!Manufacturer_Part_Number (M20-7820446)
+~!Link Datasheet (https://cdn.harwin.com/pdfs/M20-782.pdf)
+~!Height (8.65mm)
+~!3D_Model (M20-7820446)
+M20-7820446
+1.1!U 2.1!U 3.1!U 4.1!U 

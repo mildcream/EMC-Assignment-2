@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '87891_0808'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Molex", "87891-0808" (!) = "", "HDRV8W69P0X254_1X8_2032X251X1641P", "Header, Vertical", "538-87891-0808", "https://www.mouser.co.uk/ProductDetail/Molex/87891-0808?qs=iLbezkQI%252Bsh%252BavKMBAJgwA%3D%3D", "Headers & Wire Housings 2.54MM PITCH SRSW T/H HEADER 8 CKT", "https://www.molex.com/pdm_docs/sd/878910808_sd.pdf", "16.41 mm"
+END_PART
+
+END.

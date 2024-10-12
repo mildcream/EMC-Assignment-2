@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP M22-5320305R
+D 2.00mm (0.079") Pitch DIL Vertical SMT Pin Header, gold, pick & place (Tape & Reel packing), 3+3 contacts
+K
+F https://cdn.harwin.com/pdfs/M22-532R.pdf
+$ENDCMP
+#
+#End Doc Library

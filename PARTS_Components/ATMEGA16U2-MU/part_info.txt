@@ -1,0 +1,9 @@
+Manufacturer=Microchip
+PartNumber=ATMEGA16U2-MU
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat No-Lead
+PinCount=33
+Version=2.1
+Released=2017-06-02 09:13:45
+Downloaded=2024-10-07 19:41:01
+3D=Y

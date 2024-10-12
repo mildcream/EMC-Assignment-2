@@ -1,0 +1,9 @@
+Manufacturer=Murata Electronics
+PartNumber=BLM21SP102SN1D
+PartCategory=Filter
+PackageCategory=Other
+PinCount=2
+Version=1.2
+Released=2019-10-10 10:28:44
+Downloaded=2024-10-07 20:35:50
+3D=Y

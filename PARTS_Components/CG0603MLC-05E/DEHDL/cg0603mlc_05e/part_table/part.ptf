@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CG0603MLC_05E'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT", "TJ", "TKNEE", "MTBF", "POWER", "SLOPE", "SUBTYPE", "PACKAGE", "IF", "IR", "RJA", "BV", "VC", "IPP", "VRWM", "IT";
+{========================================================================================}
+ "Bourns", "CG0603MLC-05E" (!) = "", "VARC1608X55N", "Varistors Chip", "652-CG0603MLC-05E", "https://www.mouser.co.uk/ProductDetail/Bourns/CG0603MLC-05E?qs=lDok7oSghXVLNKMK69q%252BFQ%3D%3D", "Varistor, ESD Protector, 5VDC,20V,0603 Bourns MLC Series Power Varistor 0.5pF 20V 0603 Case", "", "0.55 mm", "125", "", "", "", "", "BIDIRECTIONAL TVS SMD", "0603", "", "", "", "5", "30", "", "", ""
+END_PART
+
+END.

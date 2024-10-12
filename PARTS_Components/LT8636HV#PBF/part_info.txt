@@ -1,0 +1,9 @@
+Manufacturer=Analog Devices
+PartNumber=LT8636HV#PBF
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=25
+Version=2.2
+Released=2024-07-05 04:43:36
+Downloaded=2024-10-06 23:02:09
+3D=Y

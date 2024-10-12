@@ -1,0 +1,16 @@
+.BLM21SP102SN1D :1 ;BLM21_N1D Series EMI Suppression Filter 1000+/-25% at 100MHz 1.6A @85
+BLM21AG102BH1J
+*STM FL
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN BLM21SP102SN1D
+~!Mouser Part Number (81-BLM21SP102SN1D)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Murata-Electronics/BLM21SP102SN1D?qs=17u8i%2FzlE88oj6hmj%252BXptA%3D%3D)
+~!Manufacturer_Name (Murata Electronics)
+~!Manufacturer_Part_Number (BLM21SP102SN1D)
+~!Link Datasheet (https://www.murata.com/en-us/products/productdetail?partno=BLM21SP102SN1%23)
+~!Height (1.05mm)
+~!3D_Model (BLM21SP102SN1D)
+BLM21SP102SN1D
+1.1!U 2.1!U 

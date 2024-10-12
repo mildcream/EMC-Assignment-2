@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ATMEGA16U2-MU
+D 8-bit Microcontrollers - MCU AVR USB 8K FLASH AVR USB 16K FLASH
+K
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc7799.pdf
+$ENDCMP
+#
+#End Doc Library

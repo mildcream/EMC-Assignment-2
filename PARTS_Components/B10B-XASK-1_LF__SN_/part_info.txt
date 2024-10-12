@@ -1,0 +1,9 @@
+Manufacturer=JST (JAPAN SOLDERLESS TERMINALS)
+PartNumber=B10B-XASK-1(LF)(SN)
+PartCategory=Connector
+PackageCategory=Header, Shrouded - Straight PTH Box
+PinCount=10
+Version=1.1
+Released=2021-05-27 04:51:58
+Downloaded=2024-10-08 12:21:52
+3D=Y

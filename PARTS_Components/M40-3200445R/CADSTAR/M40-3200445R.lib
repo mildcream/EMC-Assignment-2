@@ -1,0 +1,16 @@
+.M40-3200445R :1 ;1.00mm Pitch DIL Vertical SMT Pin Header, location pegs, gold, 4+4 contacts, pick & place (Tape & Reel packing)
+HUSSP8W30P100_2X4_400X320X365P
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5" 6="6" 7="7" 8="8"
+*MXP 10
+*DFN M40-3200445R
+~!Mouser Part Number (855-M40-3200445R)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Harwin/M40-3200445R?qs=aU5qWCfurfxafIJaAqcDbg%3D%3D)
+~!Manufacturer_Name (Harwin)
+~!Manufacturer_Part_Number (M40-3200445R)
+~!Link Datasheet (https://cdn.harwin.com/pdfs/M40-320R.pdf)
+~!Height (-)
+~!3D_Model (M40-3200445R)
+M40-3200445R
+1.1!U 3.1!U 5.1!U 7.1!U 2.1!U 4.1!U 6.1!U 8.1!U 

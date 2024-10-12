@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "M40-3200445R"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-12-20-17:43:24)
+    (mountForm default
+        (footprintRef "HUSSP8W30P100_2X4_400X320X365P")
+        (spec "System")
+    )
+)

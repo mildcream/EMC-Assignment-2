@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model CG0603MLC-05E
+#/265596/1124593/2.50/2/3/Varistor
+DEF CG0603MLC-05E RV 0 30 Y Y 1 F N
+F0 "RV" 550 250 50 H V L CNN
+F1 "CG0603MLC-05E" 550 150 50 H V L CNN
+F2 "VARC1608X55N" 550 50 50 H I L CNN
+F3 "" 550 -50 50 H I L CNN
+F4 "Varistor, ESD Protector, 5VDC,20V,0603 Bourns MLC Series Power Varistor 0.5pF 20V 0603 Case" 550 -150 50 H I L CNN "Description"
+F5 "0.55" 550 -250 50 H I L CNN "Height"
+F6 "652-CG0603MLC-05E" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Bourns/CG0603MLC-05E?qs=lDok7oSghXVLNKMK69q%252BFQ%3D%3D" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Bourns" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "CG0603MLC-05E" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+P 4 0 1 6 150 -100 250 -100 450 100 550 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

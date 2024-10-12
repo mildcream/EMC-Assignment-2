@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'M20_7820446'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Harwin", "M20-7820446" (!) = "", "RHDR4W70P0X254_1X4_1056X250X865P", "Header, Receptacle - Straight PTH Box", "855-M20-7820446", "https://www.mouser.co.uk/ProductDetail/Harwin/M20-7820446?qs=vF78I%252BjhbY8%252Bno0H8mp9XA%3D%3D", "M20 Socket, Sil, Vertical, 4W,2.54Mm HARWIN 2.54mm 4 Way 1 Row Straight PCB Socket Through Hole Socket Strip", "https://cdn.harwin.com/pdfs/M20-782.pdf", "8.65 mm"
+END_PART
+
+END.

@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "LT8636HVPBF"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "LT8636HVPBF")
+        (spec "default")
+    )
+)

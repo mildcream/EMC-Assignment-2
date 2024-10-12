@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "B10B-XASK-1_LF__SN_"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-07-13-05:52:33)
+    (mountForm default
+        (footprintRef "SHDR10W64P0X250_1X10_2740X575X700P")
+        (spec "System")
+    )
+)

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "LT8636HV_PBF"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-07-05-04:43:36)
+    (mountForm default
+        (footprintRef "LT8636HVPBF")
+        (spec "System")
+    )
+)

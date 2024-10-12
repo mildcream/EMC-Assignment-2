@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'M22_5320305R'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Harwin", "M22-5320305R" (!) = "", "M225320305R", "Other", "855-M22-5320305R", "https://www.mouser.co.uk/ProductDetail/Harwin/M22-5320305R?qs=vF78I%252BjhbY%252BtF2P5DN1inA%3D%3D", "2.00mm (0.079") Pitch DIL Vertical SMT Pin Header, gold, pick & place (Tape & Reel packing), 3+3 contacts", "https://cdn.harwin.com/pdfs/M22-532R.pdf", "7.3 mm"
+END_PART
+
+END.

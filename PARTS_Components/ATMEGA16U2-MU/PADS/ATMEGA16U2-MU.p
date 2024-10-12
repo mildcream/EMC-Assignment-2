@@ -1,0 +1,50 @@
+*PADS-LIBRARY-PART-TYPES-V9*
+
+ATMEGA16U2-MU QFN50P500X500X100-33N-D I ANA 7 1 0 0 0
+TIMESTAMP 2024.10.07.19.41.01
+"Mouser Part Number" 556-ATMEGA16U2-MU
+"Mouser Price/Stock" https://www.mouser.co.uk/ProductDetail/Microchip-Technology/ATMEGA16U2-MU?qs=JV7lzlMm3yIZlyznMyuPNA%3D%3D
+"Manufacturer_Name" Microchip
+"Manufacturer_Part_Number" ATMEGA16U2-MU
+"Description" 8-bit Microcontrollers - MCU AVR USB 8K FLASH AVR USB 16K FLASH
+"Datasheet Link" http://ww1.microchip.com/downloads/en/DeviceDoc/doc7799.pdf
+"Geometry.Height" 1mm
+GATE 1 33 0
+ATMEGA16U2-MU
+1 0 U XTAL1
+2 0 U (PC0)_XTAL2
+3 0 U GND
+4 0 U VCC
+5 0 U (PCINT11_/_AIN2_)_PC2
+6 0 U (OC.0B_/_INT0)_PD0
+7 0 U (AIN0_/_INT1)_PD1
+8 0 U (RXD1_/_AIN1_/_INT2)_PD2
+9 0 U (TXD1_/_INT3)_PD3
+10 0 U (INT5/_AIN3)_PD4
+11 0 U (XCK_/_AIN4_/_PCINT12)_PD5
+12 0 U (\RTS_\/_AIN5_/_INT6)_PD6
+13 0 U (\CTS_\/_\HWB_\/_AIN6_/_T0_/_INT7)_PD7
+14 0 U (\SS_\/_PCINT0)_PB0
+15 0 U (SCLK_/_PCINT1)_PB1
+16 0 U (PDI_/_MOSI_/_PCINT2)_PB2
+24 0 U \RESET_(PC1_\/_DW)
+23 0 U PC6_(OC.1A_/_PCINT8)
+22 0 U PC7_(INT4_/_ICP1_/_CLKO)
+21 0 U PB7_(PCINT7_/_OC.0A_/_OC.1C)
+20 0 U PB6_(PCINT6)
+19 0 U PB5_(PCINT5)
+18 0 U PB4_(T1_/_PCINT4)
+17 0 U PB3_(PDO_/_MISO_/_PCINT3)
+33 0 U EP
+32 0 U AVCC
+31 0 U UVCC
+30 0 U D-
+29 0 U D+
+28 0 U UGND
+27 0 U UCAP
+26 0 U PC4_(PCINT10)
+25 0 U PC5_(_PCINT9/_OC.1B)
+
+*END*
+*REMARK* SamacSys ECAD Model
+612430/1124593/2.50/33/3/Integrated Circuit

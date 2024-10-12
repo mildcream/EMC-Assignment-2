@@ -1,0 +1,9 @@
+Manufacturer=Molex
+PartNumber=87891-0808
+PartCategory=Connector
+PackageCategory=Header, Vertical
+PinCount=8
+Version=1.1
+Released=2021-10-03 06:55:20
+Downloaded=2024-10-08 12:24:09
+3D=Y

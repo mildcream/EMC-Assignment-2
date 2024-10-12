@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "HUSSP8W30P100_2X4_400X320X365P"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "HUSSP8W30P100_2X4_400X320X365P")
+        (spec "default")
+    )
+)

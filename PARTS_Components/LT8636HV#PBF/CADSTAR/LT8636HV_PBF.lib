@@ -1,0 +1,16 @@
+.LT8636HV_PBF :1 ;42V, 5A/7A Peak Synchronous Step-Down Silent Switcher with 2.5uA Quiescent Current
+LT8636HVPBF
+*STM IC
+*NGS
+*PLB 1="PG" 2="BIAS" 3="INTVCC" 4="GND_1" 5="NC_1" 6="VIN_1" 7="BST" 8="SW_1" 9="SW_2" 10="SW_3" 11="VIN_2" 12="NC_2" 13="GND_2" 14="EN/UV" 15="SYNC/MODE" 16="CLKOUT" 17="RT" 18="TR/SS" 19="FB_1" 20="FB_2" 21="GND_3" 22="GND_4" 23="GND_5" 24="GND_6" 25="GND_7"
+*MXP 25
+*DFN LT8636HV_PBF
+~!Mouser Part Number (584-LT8636HV#PBF)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Analog-Devices/LT8636HVPBF?qs=P1JMDcb91o4F2ogaQ2J9Vg%3D%3D)
+~!Manufacturer_Name (Analog Devices)
+~!Manufacturer_Part_Number (LT8636HV#PBF)
+~!Link Datasheet (https://www.analog.com/media/en/technical-documentation/data-sheets/lt8636-8637.pdf)
+~!Height (1.03mm)
+~!3D_Model (LT8636HV#PBF)
+LT8636HV_PBF
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 17.1!U 18.1!U 19.1!U 20.1!U 21.1!U 22.1!U 23.1!U 24.1!U 25.1!U 

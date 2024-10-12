@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'B10B_XASK_1_LF__SN_'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "JST (JAPAN SOLDERLESS TERMINALS)", "B10B-XASK-1(LF)(SN)" (!) = "", "SHDR10W64P0X250_1X10_2740X575X700P", "Header, Shrouded - Straight PTH Box", "", "", "Connector Header Through Hole  position 0.098" (2.50mm)", "https://datasheet.datasheetarchive.com/originals/dk/DKDS41/DSANUWW0025348.pdf", "7 mm"
+END_PART
+
+END.

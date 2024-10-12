@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'M40_3200445R'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Harwin", "M40-3200445R" (!) = "", "HUSSP8W30P100_2X4_400X320X365P", "Header, Unshrouded - Straight SMD Pin", "855-M40-3200445R", "https://www.mouser.co.uk/ProductDetail/Harwin/M40-3200445R?qs=aU5qWCfurfxafIJaAqcDbg%3D%3D", "1.00mm Pitch DIL Vertical SMT Pin Header, location pegs, gold, 4+4 contacts, pick & place (Tape & Reel packing)", "https://cdn.harwin.com/pdfs/M40-320R.pdf"
+END_PART
+
+END.

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ATMEGA16U2_MU'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Microchip", "ATMEGA16U2-MU" (!) = "", "QFN50P500X500X100-33N-D", "Quad Flat No-Lead", "556-ATMEGA16U2-MU", "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/ATMEGA16U2-MU?qs=JV7lzlMm3yIZlyznMyuPNA%3D%3D", "8-bit Microcontrollers - MCU AVR USB 8K FLASH AVR USB 16K FLASH", "http://ww1.microchip.com/downloads/en/DeviceDoc/doc7799.pdf", "1 mm"
+END_PART
+
+END.
