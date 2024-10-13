@@ -39,6 +39,45 @@
 		(58 "User.9" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(pcbplotparams
@@ -190,11 +229,11 @@
 	(footprint "emc:RHDR4W70P0X254_1X4_1056X250X865P"
 		(layer "F.Cu")
 		(uuid "03afdbba-cda8-402a-9f5b-53a2e2defafa")
-		(at 88.04 14 180)
+		(at 88.54 32.5 180)
 		(descr "M20-7820446")
 		(tags "Connector")
 		(property "Reference" "JP2"
-			(at 0 -3 0)
+			(at -3.42 0 0)
 			(layer "F.SilkS")
 			(uuid "96e9b7aa-1fbe-42e5-96bd-43f5e64d9a2f")
 			(effects
@@ -511,11 +550,11 @@
 	(footprint "emc:C0805"
 		(layer "F.Cu")
 		(uuid "03b1e055-b96c-4569-b39d-c5ef7356d6ad")
-		(at 58.6 23.5)
+		(at 73.6 47)
 		(descr "C0805")
 		(tags "Capacitor")
 		(property "Reference" "C9"
-			(at 0 0 0)
+			(at -1.1 -2.5 0)
 			(layer "F.SilkS")
 			(uuid "dd6350c0-6b70-4d3c-a7cf-f3001297f34a")
 			(effects
@@ -711,11 +750,11 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "040e10ae-99a3-4676-845e-e959b6f2b0d7")
-		(at 62 26 -90)
+		(at 77 49.5 -90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at -2.5 0 90)
+			(at -2.5 0 180)
 			(layer "F.SilkS")
 			(uuid "ce2f2239-d948-4095-a070-6e13490dc320")
 			(effects
@@ -924,11 +963,11 @@
 	(footprint "emc:C0805"
 		(layer "F.Cu")
 		(uuid "075e05e1-7172-4f3b-8a47-cd3e2663c057")
-		(at 16.05 22.5 90)
+		(at 60.9 31.25 90)
 		(descr "C0805")
 		(tags "Capacitor")
 		(property "Reference" "C13"
-			(at 0 0 90)
+			(at 4.25 0 90)
 			(layer "F.SilkS")
 			(uuid "b6beefa0-db2c-4e46-aa8c-2f6b068f0731")
 			(effects
@@ -1124,7 +1163,7 @@
 	(footprint "emc:C0805"
 		(layer "F.Cu")
 		(uuid "08a2de02-7594-4b41-89d7-99d9e7a89c0a")
-		(at 69 22 90)
+		(at 84 45.5 90)
 		(descr "C0805")
 		(tags "Capacitor")
 		(property "Reference" "C8"
@@ -1324,7 +1363,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "0cafb587-35f5-4e5a-a0f2-d5752f56a4ef")
-		(at 111.45 58.5)
+		(at 47.95 68)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C25"
@@ -1537,7 +1576,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "1744358c-a3f2-43e7-99b8-b52b93382cdf")
-		(at 106 65.5 180)
+		(at 42.5 75 180)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R10"
@@ -1750,7 +1789,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "179fa043-266a-456d-937f-8590288a0721")
-		(at 90.45 56)
+		(at 26.599 59.168)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R16"
@@ -1963,7 +2002,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "1a8e3048-772e-4c07-9be2-9be6b1f49494")
-		(at 69 45)
+		(at 84 68.5)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "RN1C1"
@@ -2176,7 +2215,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "1e10b34c-0039-4d9a-a05e-f791b74af122")
-		(at 106.0875 62 180)
+		(at 42.5875 71.5 180)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R9"
@@ -2389,11 +2428,11 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "2b5bd931-2fd2-4e58-8a31-67b3ecd3c3a5")
-		(at 100.5 15 180)
+		(at 55.938 57.4 180)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
-			(at 0 -1.65 0)
+			(at -0.062 1.9 0)
 			(layer "F.SilkS")
 			(uuid "85eb9982-290d-4bc1-8cb4-f04545b563fa")
 			(effects
@@ -2602,11 +2641,11 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "2c650095-3b4e-465e-a4ca-ed432dd322bc")
-		(at 106 19 90)
+		(at 61.438 61.4 90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R5"
-			(at 0 -1.65 90)
+			(at -2.6 0.062 180)
 			(layer "F.SilkS")
 			(uuid "e09aeb53-0fe2-468e-856d-db3da49c1176")
 			(effects
@@ -2815,7 +2854,7 @@
 	(footprint "emc:LT8636HVPBF"
 		(layer "F.Cu")
 		(uuid "33211cdb-5bdc-427d-b918-3305df435017")
-		(at 26.05 21.5)
+		(at 70.9 30.25)
 		(descr "LT8636HV#PBF-1")
 		(tags "Integrated Circuit")
 		(property "Reference" "U1"
@@ -3319,7 +3358,7 @@
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm"
 		(layer "F.Cu")
 		(uuid "36ae0d2a-67ee-4797-b210-2e034b5be0b0")
-		(at 71 26.65 90)
+		(at 86 50.15 90)
 		(descr "SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 2 copper strips")
 		(tags "net tie solder jumper bridged")
 		(property "Reference" "W1"
@@ -3516,7 +3555,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "381474be-9227-4b67-9841-b3fac2ec93b9")
-		(at 27.05 17)
+		(at 71.9 25.75)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R6"
@@ -3729,7 +3768,7 @@
 	(footprint "Inductor_SMD:L_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "3a3d7cf4-8eb3-4015-9e00-7d82e64b3626")
-		(at 17.05 26.5 180)
+		(at 61.9 35.25 180)
 		(descr "Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "inductor")
 		(property "Reference" "FB1"
@@ -3944,7 +3983,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "3bb41b8f-56e6-44b5-bc1f-96bff34abff9")
-		(at 68 36.4375 -90)
+		(at 83 59.9375 -90)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "TX1"
@@ -4179,11 +4218,11 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "3e233f2e-9ef8-40b9-8b73-db6290bbe121")
-		(at 104 15 180)
+		(at 59.438 57.4 180)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R4"
-			(at 0 -1.65 0)
+			(at 0 1.9 0)
 			(layer "F.SilkS")
 			(uuid "6516a466-fdbe-48d3-b4cd-6dd56b6e8c7a")
 			(effects
@@ -4392,11 +4431,11 @@
 	(footprint "emc:C0805"
 		(layer "F.Cu")
 		(uuid "40b606ec-3d8c-41d2-bedd-1cc2bb44639a")
-		(at 58.6 27)
+		(at 73.6 50.5)
 		(descr "C0805")
 		(tags "Capacitor")
 		(property "Reference" "C11"
-			(at 0 0 0)
+			(at -0.1 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "619faa8c-89e0-44e4-9b25-da0104adc36a")
 			(effects
@@ -4592,7 +4631,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "4267277b-eb68-400d-818d-73b465a35106")
-		(at 90.5 69 180)
+		(at 26.649 72.168 180)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C35"
@@ -4805,7 +4844,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "445a3f54-6ba0-435f-ae63-7374f75aba54")
-		(at 106.5 51.5)
+		(at 43.5875 60)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R12"
@@ -5018,7 +5057,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "44cf6ba5-d5b9-48df-a509-f4729340a094")
-		(at 96 69)
+		(at 32.149 72.168)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
@@ -5297,7 +5336,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "4ab015fa-6992-4eb9-a16a-3652cc9256e4")
-		(at 90.45 52.5)
+		(at 26.599 55.668)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C37"
@@ -5510,11 +5549,11 @@
 	(footprint "emc:QFN50P500X500X100-33N-D"
 		(layer "F.Cu")
 		(uuid "4b0afa3b-3aa3-459d-be43-abc8ac4de470")
-		(at 66.5 27)
+		(at 81.5 50.5)
 		(descr "ATMEGA16U2-MU")
 		(tags "Integrated Circuit")
 		(property "Reference" "U2"
-			(at -2 4.5 0)
+			(at 0 4.5 0)
 			(layer "F.SilkS")
 			(uuid "7791543b-b388-4760-b7c0-689a5e77b362")
 			(effects
@@ -6065,7 +6104,7 @@
 	(footprint "emc:HUSSP8W30P100_2X4_400X320X365P"
 		(layer "F.Cu")
 		(uuid "4cc80cc7-578c-4687-bdf2-4cc35fad7962")
-		(at 99 20.45 180)
+		(at 54.438 62.85 180)
 		(descr "M40-3010646")
 		(tags "Connector")
 		(property "Reference" "J1"
@@ -6418,7 +6457,7 @@
 	(footprint "emc:C0805"
 		(layer "F.Cu")
 		(uuid "4edac7d5-2edb-47da-9b55-f6db3ff893a9")
-		(at 44.5 67)
+		(at 49 44)
 		(descr "C0805")
 		(tags "Capacitor")
 		(property "Reference" "C6"
@@ -6618,11 +6657,11 @@
 	(footprint "emc:M225320305R"
 		(layer "F.Cu")
 		(uuid "518c8e8f-e883-4baf-9911-5373e861eb79")
-		(at 53.625 72.5 -90)
+		(at 58.125 49.5 -90)
 		(descr "M22-5320305R-2")
 		(tags "Connector")
 		(property "Reference" "ICSP2"
-			(at 0 0 90)
+			(at -5 0 180)
 			(layer "F.SilkS")
 			(uuid "628add29-c17a-491b-90c8-384a9f0ab52c")
 			(effects
@@ -6971,7 +7010,7 @@
 	(footprint "emc:C0805"
 		(layer "F.Cu")
 		(uuid "53c6a7a7-4023-4932-a681-df3ec60a352c")
-		(at 30.05 21 -90)
+		(at 74.9 29.75 -90)
 		(descr "C0805")
 		(tags "Capacitor")
 		(property "Reference" "C16"
@@ -7171,7 +7210,7 @@
 	(footprint "Crystal:Crystal_SMD_FOX_FE-2Pin_7.5x5.0mm"
 		(layer "F.Cu")
 		(uuid "571491c8-1a5a-4bf6-80df-722abc4a08ad")
-		(at 26.5 57.5)
+		(at 28 29)
 		(descr "crystal Ceramic Resin Sealed SMD http://www.foxonline.com/pdfs/fe.pdf, 7.5x5.0mm^2 package")
 		(tags "SMD SMT crystal")
 		(property "Reference" "Y2"
@@ -7447,11 +7486,11 @@
 	(footprint "emc:C0805"
 		(layer "F.Cu")
 		(uuid "58e3d45c-8b9b-4606-abe0-6d9dd6c3ac87")
-		(at 18.05 22.5 90)
+		(at 62.9 31.25 90)
 		(descr "C0805")
 		(tags "Capacitor")
 		(property "Reference" "C12"
-			(at 0 0 90)
+			(at 4.25 0 90)
 			(layer "F.SilkS")
 			(uuid "c6a3c0e4-3126-4636-84cd-ab6f38b21b1f")
 			(effects
@@ -7647,11 +7686,11 @@
 	(footprint "emc:C0805"
 		(layer "F.Cu")
 		(uuid "5a4f4425-8a46-4bda-bf8f-8d651fc9e32f")
-		(at 25.05 26 180)
+		(at 69.9 34.75 180)
 		(descr "C0805")
 		(tags "Capacitor")
 		(property "Reference" "C18"
-			(at 0 0 180)
+			(at 3.9 -0.25 180)
 			(layer "F.SilkS")
 			(uuid "614f1ff9-22f1-4508-bf1d-7e3e33b0a7c4")
 			(effects
@@ -7847,7 +7886,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "5f9ceb38-b655-4da7-8ac4-f1477e910363")
-		(at 96 52.5)
+		(at 32.149 55.668)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C3"
@@ -8060,7 +8099,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "60cf6a1e-d543-4146-aa4e-c44dc1ece531")
-		(at 90.5 66.5)
+		(at 26.649 69.668)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R18"
@@ -8273,11 +8312,11 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "629360b7-d62c-42cd-8745-c3ca5c2edaa9")
-		(at 29.5 48.5875 -90)
+		(at 30.5 23.5 -90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "RN4B1"
-			(at 0 -1.65 90)
+			(at -2.5 0 180)
 			(layer "F.SilkS")
 			(uuid "59525591-c4f0-4544-95a0-fa97e6ce858d")
 			(effects
@@ -8486,11 +8525,11 @@
 	(footprint "emc:C0805"
 		(layer "F.Cu")
 		(uuid "633e9af3-5c86-43f6-89e8-500c5bf39526")
-		(at 20.05 22.5 -90)
+		(at 64.9 31.25 -90)
 		(descr "C0805")
 		(tags "Capacitor")
 		(property "Reference" "C15"
-			(at 0 0 -90)
+			(at -4.25 0 -90)
 			(layer "F.SilkS")
 			(uuid "46194e20-2a20-4e1d-83a8-e70f38608829")
 			(effects
@@ -8686,7 +8725,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "68390ec0-131d-40dd-b691-34f3608a1321")
-		(at 95.5 63)
+		(at 31.649 66.168)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C27"
@@ -8899,11 +8938,11 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "69a572b9-7fac-4a64-bd97-4f0f08e3947a")
-		(at 27.5 48.5875 -90)
+		(at 25 23.5 -90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "RN4A1"
-			(at 0.0875 0 90)
+			(at -2.5875 0 180)
 			(layer "F.SilkS")
 			(uuid "cf823214-453b-4237-bfa1-639639388096")
 			(effects
@@ -9112,11 +9151,11 @@
 	(footprint "emc:C0805"
 		(layer "F.Cu")
 		(uuid "6fc9b26c-bd1c-4bf6-a21b-6af9dcd27f34")
-		(at 22.55 29.5 -90)
+		(at 67.4 38.25 -90)
 		(descr "C0805")
 		(tags "Capacitor")
 		(property "Reference" "C20"
-			(at 0 0 -90)
+			(at 3.25 0.4 0)
 			(layer "F.SilkS")
 			(uuid "47546344-d7de-4e79-969e-093a191c81a9")
 			(effects
@@ -9312,7 +9351,7 @@
 	(footprint "Inductor_SMD:L_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "710dcdc5-0f05-4e22-9a8e-4f97d4fb1866")
-		(at 25.55 30.5)
+		(at 70.4 39.25)
 		(descr "Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "inductor")
 		(property "Reference" "L4"
@@ -9527,11 +9566,11 @@
 	(footprint "emc:C0805"
 		(layer "F.Cu")
 		(uuid "73369ac7-a404-4be7-9c41-7a33088687f7")
-		(at 23.5 65 -90)
+		(at 26 37 -90)
 		(descr "C0805")
 		(tags "Capacitor")
 		(property "Reference" "C11B1"
-			(at 0 0 -90)
+			(at -3.6 0 0)
 			(layer "F.SilkS")
 			(uuid "117396f2-e009-4cf2-8260-925f0061619a")
 			(effects
@@ -9727,11 +9766,11 @@
 	(footprint "Inductor_SMD:L_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "769a20e1-5980-4a1e-ba01-404fe1cdf553")
-		(at 30.05 28.5 90)
+		(at 74.9 37.25 90)
 		(descr "Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "inductor")
 		(property "Reference" "L3"
-			(at 0 -1.55 90)
+			(at 0 -1.9 180)
 			(layer "F.SilkS")
 			(uuid "8d044b74-ec16-46a5-927f-e110d33680ad")
 			(effects
@@ -9942,11 +9981,11 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "8180f2b6-a1ac-4af8-8d6c-c1d94ab3d7f5")
-		(at 96.9125 15)
+		(at 52.3505 57.4)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R11"
-			(at 0 -1.65 0)
+			(at 0 -1.9 0)
 			(layer "F.SilkS")
 			(uuid "b1e33ad8-0367-40d8-b9f4-74cce82947d4")
 			(effects
@@ -10155,7 +10194,7 @@
 	(footprint "Diode_SMD:D_SOD-523"
 		(layer "F.Cu")
 		(uuid "8400bf21-66ee-4121-b906-ef5593f7087f")
-		(at 63 71.5 -90)
+		(at 22 52.5 -90)
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
 		(property "Reference" "D2"
@@ -10466,11 +10505,11 @@
 	(footprint "emc:SOT95P280X145-5N"
 		(layer "F.Cu")
 		(uuid "84cfb15d-9dd9-41ec-b589-65be5b3d6ff6")
-		(at 84.25 69.95 180)
+		(at 20.399 73.118 180)
 		(descr "DBV (R-PDSO-G5)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC1"
-			(at 0 0 0)
+			(at -4.101 -2.382 0)
 			(layer "F.SilkS")
 			(uuid "e897799c-96e7-4c14-bf11-7d51ba268be8")
 			(effects
@@ -10802,11 +10841,11 @@
 	(footprint "emc:M225320305R"
 		(layer "F.Cu")
 		(uuid "88045a23-7094-4eb7-8d00-8d6e5a99a3a1")
-		(at 54 38.5)
+		(at 69 62)
 		(descr "M22-5320305R-2")
 		(tags "Connector")
 		(property "Reference" "ICSP1"
-			(at 0 0 0)
+			(at 0 5.5 0)
 			(layer "F.SilkS")
 			(uuid "fd910df8-a86d-4f4f-bfc9-843d6d8219a8")
 			(effects
@@ -11155,7 +11194,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "8c1235d4-b3ee-4164-8dee-79e9e39e447a")
-		(at 23.05 14.5 180)
+		(at 67.9 23.25 180)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R7"
@@ -11368,7 +11407,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "8e28d4b2-3ad8-468b-9945-394d8a10f050")
-		(at 103 52.5 180)
+		(at 39.5 59 180)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C22"
@@ -11581,7 +11620,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "96de4074-fb95-4299-ab34-e7dcade7a381")
-		(at 65.5 41 90)
+		(at 80.5 64.5 90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "RN2C1"
@@ -11794,11 +11833,11 @@
 	(footprint "emc:DIP794W53P254L3467H457Q28N"
 		(layer "F.Cu")
 		(uuid "98b21a83-61de-413b-bb48-7bacae4b3715")
-		(at 37.469 63.11)
+		(at 41.969 39.97)
 		(descr "28P3 7.62 row pitch")
 		(tags "Integrated Circuit")
 		(property "Reference" "U3"
-			(at 0 0 0)
+			(at 0 -18.61 0)
 			(layer "F.SilkS")
 			(uuid "fda2677c-991b-4aef-b005-8f4bd758a89e")
 			(effects
@@ -12369,7 +12408,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "9c153e22-3f39-44bb-867c-2d1a19036c58")
-		(at 100 63 180)
+		(at 36.149 66.168 180)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
@@ -12582,7 +12621,7 @@
 	(footprint "CG0603MLC-05E:VARC1608X55N"
 		(layer "F.Cu")
 		(uuid "9df42d54-9809-41df-a7ba-2fc8fd9ea11f")
-		(at 64.5 17.5)
+		(at 79.5 41)
 		(descr "CG0603 Series")
 		(tags "Varistor")
 		(property "Reference" "Z1"
@@ -12784,7 +12823,7 @@
 	(footprint "Inductor_SMD:L_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "a3c85f37-364c-4faf-8fc4-b696f09ed95e")
-		(at 44.5 70)
+		(at 49 47)
 		(descr "Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "inductor")
 		(property "Reference" "L2"
@@ -12999,11 +13038,11 @@
 	(footprint "emc:C0805"
 		(layer "F.Cu")
 		(uuid "a5edcfbb-bec2-47e0-8e24-0e16045b1ee3")
-		(at 22.05 22.5 90)
+		(at 66.9 31.25 90)
 		(descr "C0805")
 		(tags "Capacitor")
 		(property "Reference" "C14"
-			(at 0 0 90)
+			(at 3.25 0.6 180)
 			(layer "F.SilkS")
 			(uuid "f4e3f7e4-ff56-4c7f-83dc-883c29989ec4")
 			(effects
@@ -13199,7 +13238,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "a78ee471-627d-49c8-afdd-981b3f41b825")
-		(at 100 69 180)
+		(at 36.149 72.168 180)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C23"
@@ -13412,11 +13451,11 @@
 	(footprint "emc:C0805"
 		(layer "F.Cu")
 		(uuid "a911bceb-14e9-4c71-af55-559b034219ef")
-		(at 59.4 30.5)
+		(at 73.5 54)
 		(descr "C0805")
 		(tags "Capacitor")
 		(property "Reference" "C7"
-			(at 0 0 0)
+			(at 3.6 0.5 0)
 			(layer "F.SilkS")
 			(uuid "deb4d393-d1f4-4aab-b571-e9182b069a68")
 			(effects
@@ -13612,7 +13651,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "aa543e27-4f72-4d83-a7de-72c42eb6f06e")
-		(at 90.5375 59.5)
+		(at 26.6865 62.668)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R13"
@@ -13825,11 +13864,11 @@
 	(footprint "Diode_SMD:D_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "b058f180-490d-45c4-8f9c-36bb3c3a4d3d")
-		(at 69 48.5)
+		(at 84 72)
 		(descr "Diode SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D3"
-			(at -4.28 -1.225 -90)
+			(at -3 0 0)
 			(layer "F.SilkS")
 			(uuid "40ca6a95-881d-443e-88b5-0b8bcb84f37e")
 			(effects
@@ -14086,7 +14125,7 @@
 	(footprint "emc:C0805"
 		(layer "F.Cu")
 		(uuid "b133cc43-f4ac-4245-a50f-446ae3373078")
-		(at 23.05 17 180)
+		(at 67.9 25.75 180)
 		(descr "C0805")
 		(tags "Capacitor")
 		(property "Reference" "C17"
@@ -14286,7 +14325,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "b543f980-7bee-4933-a37a-8b0053019fca")
-		(at 65.5 36.5 -90)
+		(at 80.5 60 -90)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "RX1"
@@ -14521,7 +14560,7 @@
 	(footprint "BLM21:BLM21AG102BH1J"
 		(layer "F.Cu")
 		(uuid "beada4a4-7e1b-45bf-89e9-d5a6287ed9c6")
-		(at 73.5 22.4 90)
+		(at 88.5 45.9 90)
 		(descr "BLM21_3 L=2.0 W=1.25 T=0.85")
 		(tags "Filter")
 		(property "Reference" "BLM21"
@@ -14725,11 +14764,11 @@
 	(footprint "emc:SHDR10W64P0X250_1X10_2740X575X700P"
 		(layer "F.Cu")
 		(uuid "c1628a80-d9f4-4157-b36d-6ce8c7d37303")
-		(at 14.5 46.5 -90)
+		(at 19 23.5 -90)
 		(descr "B10B-XH-A(LF)(SN)-")
 		(tags "Connector")
 		(property "Reference" "IO1"
-			(at 0 0 90)
+			(at -3.5 0 180)
 			(layer "F.SilkS")
 			(uuid "ccf41353-72d1-452c-9d69-9da991b61e1a")
 			(effects
@@ -15112,7 +15151,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "c3035341-d271-4a6b-a146-99a0914c5973")
-		(at 106.5 55)
+		(at 43 64.5)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R15"
@@ -15325,11 +15364,11 @@
 	(footprint "Connector_USB:USB_Micro-B_Wuerth_614105150721_Vertical"
 		(layer "F.Cu")
 		(uuid "c7c0a1d1-e112-493d-8453-5d3affeb9c37")
-		(at 65.4 14)
+		(at 82.7 23.5)
 		(descr "USB Micro-B receptacle, through-hole, vertical, http://katalog.we-online.de/em/datasheet/614105150721.pdf")
 		(tags "usb micro receptacle vertical")
 		(property "Reference" "X2"
-			(at -4.4 0 0)
+			(at -4.94 0 0)
 			(layer "F.SilkS")
 			(uuid "130d9b5d-03a6-42eb-a309-494185a9d3d2")
 			(effects
@@ -15677,7 +15716,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "c94f177a-bf08-47ff-8cbc-67101f09bb80")
-		(at 67 21.5 90)
+		(at 82 45 90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "RN3B1"
@@ -15890,7 +15929,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "cef2d484-2883-44c6-8c6e-ea7e548fd2a0")
-		(at 68 41 90)
+		(at 83 64.5 90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "RN2B1"
@@ -16103,7 +16142,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "d57ca153-3955-4c0b-b2e3-6625e6c96997")
-		(at 60 71.5 -90)
+		(at 19 52.5 -90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "RN1D1"
@@ -16316,7 +16355,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "d5fd170a-c3f5-4631-bb61-09636c9785fd")
-		(at 111.5 62)
+		(at 48 71.5)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C5"
@@ -16529,7 +16568,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "d70765ce-8190-4755-8500-d0d8ec930181")
-		(at 65 21.5 90)
+		(at 80 45 90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "RN3A1"
@@ -16742,7 +16781,7 @@
 	(footprint "emc:C0805"
 		(layer "F.Cu")
 		(uuid "d8d758bd-8996-49a0-8f1e-73167d20068f")
-		(at 30.05 25 -90)
+		(at 74.9 33.75 -90)
 		(descr "C0805")
 		(tags "Capacitor")
 		(property "Reference" "C19"
@@ -16942,11 +16981,11 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "db18a54e-d08e-453b-afd1-b233f532ea47")
-		(at 83.825 44)
+		(at 20.3505 69.35)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "RN4D1"
-			(at 0 -1.65 0)
+			(at 0 -1.65 360)
 			(layer "F.SilkS")
 			(uuid "9f772bf1-5388-43a0-8ac6-aa16ab8cc838")
 			(effects
@@ -16957,7 +16996,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 1.65 0)
+			(at 0 1.65 360)
 			(layer "F.Fab")
 			(uuid "035aec02-d4cb-4d11-a2d9-2798b70cc69d")
 			(effects
@@ -17112,7 +17151,7 @@
 			(uuid "f1a35198-1b1a-44ed-ba8a-aeec567b2d3a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 360)
 			(layer "F.Fab")
 			(uuid "0e087616-1c53-4e55-8035-1da71b8d1c46")
 			(effects
@@ -17155,11 +17194,11 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "dbe3be26-b9f2-4c90-8859-8050c3711c02")
-		(at 30.5875 66.5)
+		(at 35.0875 43.5)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R2"
-			(at -0.0875 2 0)
+			(at -1.0875 2 0)
 			(layer "F.SilkS")
 			(uuid "1598f485-9659-4d2c-82a5-67f8ff53efd9")
 			(effects
@@ -17368,7 +17407,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "dc2c112f-682d-4eda-97fe-30ca3a552c65")
-		(at 90.5 63)
+		(at 26.649 66.168)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C24"
@@ -17581,11 +17620,11 @@
 	(footprint "emc:C0805"
 		(layer "F.Cu")
 		(uuid "de44a113-718b-4e63-b457-c63244d642d8")
-		(at 27 64.9 -90)
+		(at 31.5 37 -90)
 		(descr "C0805")
 		(tags "Capacitor")
 		(property "Reference" "C9B1"
-			(at 0 0 -90)
+			(at -3.5 -0.5 0)
 			(layer "F.SilkS")
 			(uuid "7c10f177-40ed-4c15-9829-858a6b13c8af")
 			(effects
@@ -17781,7 +17820,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "e27efc9f-9770-4f86-aa28-62f851603183")
-		(at 91.4375 39.5 180)
+		(at 20.3755 60.35 180)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D5V1"
@@ -18016,7 +18055,7 @@
 	(footprint "emc:C0805"
 		(layer "F.Cu")
 		(uuid "e2d0b94f-3445-4652-a0a0-e6d89d3e9fc2")
-		(at 44.5 64.5 180)
+		(at 49 41.5 180)
 		(descr "C0805")
 		(tags "Capacitor")
 		(property "Reference" "C4"
@@ -18216,7 +18255,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "e336057d-19de-4ad3-92bf-3b94aad59e8e")
-		(at 111.45 55)
+		(at 47.95 64.5)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C26"
@@ -18429,11 +18468,11 @@
 	(footprint "Crystal:Crystal_SMD_FOX_FE-2Pin_7.5x5.0mm"
 		(layer "F.Cu")
 		(uuid "e4118faf-4ab0-4e91-b96f-1dd57be4b9dc")
-		(at 53 26 90)
+		(at 68 49.5 90)
 		(descr "crystal Ceramic Resin Sealed SMD http://www.foxonline.com/pdfs/fe.pdf, 7.5x5.0mm^2 package")
 		(tags "SMD SMT crystal")
 		(property "Reference" "Y1"
-			(at 5.5 0 90)
+			(at 5.5 0 180)
 			(layer "F.SilkS")
 			(uuid "e165d0b4-4c91-4021-a4cb-b7d059f21979")
 			(effects
@@ -18706,7 +18745,7 @@
 	(footprint "CG0603MLC-05E:VARC1608X55N"
 		(layer "F.Cu")
 		(uuid "e6450150-93ba-4291-a658-8000e02291f7")
-		(at 68 17.5 180)
+		(at 83 41 180)
 		(descr "CG0603 Series")
 		(tags "Varistor")
 		(property "Reference" "Z2"
@@ -18908,7 +18947,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "ea24bc7d-69f0-401b-91c6-72bb340b0db3")
-		(at 106.4125 58.5)
+		(at 42.9125 68)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R14"
@@ -19121,7 +19160,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "eba11486-ac5f-4976-b585-af4647d1050c")
-		(at 27.05 14.5)
+		(at 71.9 23.25)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R8"
@@ -19334,11 +19373,11 @@
 	(footprint "emc:C0805"
 		(layer "F.Cu")
 		(uuid "ec544750-fff1-42c9-948d-18c5054b2d12")
-		(at 30.5 62.9 -90)
+		(at 35 39.9 -90)
 		(descr "C0805")
 		(tags "Capacitor")
 		(property "Reference" "C10"
-			(at 0 0 -90)
+			(at 0 1 -90)
 			(layer "F.SilkS")
 			(uuid "91d05a78-2f60-44de-92b3-1e72e16d026a")
 			(effects
@@ -19534,7 +19573,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "eda29449-f459-49b6-ac27-981451ee4b61")
-		(at 83.5 41.5)
+		(at 20.438 65.85)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "RN4C1"
@@ -19747,11 +19786,11 @@
 	(footprint "emc:FUSC4632X85N"
 		(layer "F.Cu")
 		(uuid "f00a75d2-a6a9-4f80-981d-f3a6897b7c99")
-		(at 73.2 32.5)
+		(at 88.2 56)
 		(descr "MF-MSMF050")
 		(tags "Fuse")
 		(property "Reference" "F1"
-			(at 0 0 0)
+			(at 4.3 0.5 0)
 			(layer "F.SilkS")
 			(uuid "598d679e-ee05-4733-a191-587a612850f7")
 			(effects
@@ -20012,7 +20051,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "f2c87f33-8c7a-4ec5-bfd1-374cdc76e7df")
-		(at 100 65.5 180)
+		(at 36.149 68.668 180)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C21"
@@ -20225,11 +20264,11 @@
 	(footprint "emc:HDRV8W69P0X254_1X8_2032X251X1641P"
 		(layer "F.Cu")
 		(uuid "f6320506-d282-46de-95f2-314a4ee9a917")
-		(at 51.5 46.72 -90)
+		(at 56 23.5 -90)
 		(descr "87891-0808")
 		(tags "Connector")
 		(property "Reference" "AD1"
-			(at 0 0 90)
+			(at -2.72 0 180)
 			(layer "F.SilkS")
 			(uuid "6884bc16-ec12-48a8-bb28-b4b97c386265")
 			(effects
@@ -20590,7 +20629,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "f93acb3b-bc2a-42d0-8028-c5c6b99c0777")
-		(at 84.45 73.5 180)
+		(at 20.599 76.668 180)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C34"
@@ -20803,11 +20842,11 @@
 	(footprint "emc:OPA4350 SOP64P600X175-16N"
 		(layer "F.Cu")
 		(uuid "fe7b80e2-819f-42a1-af14-183b080a1832")
-		(at 98 57.5)
+		(at 34.149 60.668)
 		(descr "DBQ0016A")
 		(tags "Integrated Circuit")
 		(property "Reference" "U8"
-			(at 0 0 0)
+			(at 1.351 -3.668 0)
 			(layer "F.SilkS")
 			(uuid "07c53e03-4991-4cf7-8d29-a8876768f1d4")
 			(effects
@@ -21349,5 +21388,45 @@
 				(xyz -90 0 -90)
 			)
 		)
+	)
+	(gr_line
+		(start 98 80.5)
+		(end 15.5 80.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0f8fbbc5-f78a-4a6c-b258-f4ed05c080a0")
+	)
+	(gr_line
+		(start 15.5 80.5)
+		(end 15.5 19)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7c92970d-7ac9-476c-a49d-aee7c1e93b6a")
+	)
+	(gr_line
+		(start 15.5 19)
+		(end 98 19)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8bdae2ae-4e76-42dd-9a53-670a077b2109")
+	)
+	(gr_line
+		(start 98 19)
+		(end 98 80.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "af1ea6f9-f061-4f6d-bcd6-11fc426e5d90")
 	)
 )
