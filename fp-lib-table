@@ -3,4 +3,5 @@
   (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/PARTS_Components/Library.pretty")(options "")(descr "")(disabled))
   (lib (name "microcontroller-emc-lib")(type "KiCad")(uri "${KIPRJMOD}/PARTS_Components/microcontroller-emc-lib.pretty")(options "")(descr "")(disabled))
   (lib (name "emc")(type "KiCad")(uri "${KIPRJMOD}/custom_footprints")(options "")(descr ""))
+  (lib (name "custom_footprints")(type "KiCad")(uri "${KIPRJMOD}/custom_footprints.pretty")(options "")(descr ""))
 )
