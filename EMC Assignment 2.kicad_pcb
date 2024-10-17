@@ -575,7 +575,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C9"
-			(at 0.4 2 180)
+			(at 0.846 2.5 180)
 			(layer "F.SilkS")
 			(uuid "58439873-e052-466c-b759-a9406a17aea9")
 			(effects
@@ -4519,7 +4519,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 0 3.2 0)
+			(at 10 0 0)
 			(layer "F.Fab")
 			(uuid "d554c0c1-7d10-439c-afd1-e4cb299c8c05")
 			(effects
@@ -4834,7 +4834,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C11"
-			(at 0.1 -2 360)
+			(at 0.654 -2.25 360)
 			(layer "F.SilkS")
 			(uuid "12f3bcb2-8b75-4af0-8b0c-8831a8b48fc1")
 			(effects
@@ -7674,7 +7674,7 @@
 			)
 		)
 		(property "Footprint" "Crystal:Crystal_SMD_FOX_FE-2Pin_7.5x5.0mm"
-			(at 0 0 180)
+			(at -1.6125 -14.79 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "4dc162bf-1794-44c0-a977-a7626ca05825")
@@ -9698,7 +9698,7 @@
 			(uuid "865d36dd-e6bd-416a-b8ca-45191867951e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0.71 -1.8875 90)
 			(layer "F.Fab")
 			(uuid "902eba13-4cf9-48ed-bc33-510d81a200ef")
 			(effects
@@ -16023,7 +16023,7 @@
 		(descr "USB Micro-B receptacle, through-hole, vertical, http://katalog.we-online.de/em/datasheet/614105150721.pdf")
 		(tags "usb micro receptacle vertical")
 		(property "Reference" "X2"
-			(at -4.94 0 0)
+			(at -4.354 0.2 0)
 			(layer "F.SilkS")
 			(uuid "130d9b5d-03a6-42eb-a309-494185a9d3d2")
 			(effects
