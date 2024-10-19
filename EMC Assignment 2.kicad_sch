@@ -6503,6 +6503,12 @@
 		(uuid "6a32e5be-886d-4711-bf1f-16952ef78184")
 	)
 	(junction
+		(at 220.98 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e4fe300-e21d-4ea5-8c14-43013b32a57f")
+	)
+	(junction
 		(at 30.48 242.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7961,6 +7967,16 @@
 			(type default)
 		)
 		(uuid "6395b9b9-b7c7-4767-aa87-388333a88673")
+	)
+	(wire
+		(pts
+			(xy 220.98 130.81) (xy 220.98 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6470e8e7-c880-4d75-9b4c-5fc432a067e0")
 	)
 	(wire
 		(pts
@@ -13688,7 +13704,7 @@
 				)
 			)
 		)
-		(property "Footprint" "emc:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 26.67 245.4148 0)
 			(effects
 				(font
@@ -13890,7 +13906,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "emc:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 140.6652 259.08 0)
 			(effects
 				(font
@@ -16186,6 +16202,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 220.98 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "948f26c0-076e-4cc2-b05d-3a5f2dbcd7ea")
+		(property "Reference" "#PWR032"
+			(at 220.98 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 220.98 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0fa106a3-6c1c-4fb9-9334-52758719872f")
+		)
+		(instances
+			(project "EMC Assignment 2"
+				(path "/73140039-e75b-4089-b60b-1534d1c3d425"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 21.59 261.62 90)
 		(unit 1)
@@ -16210,7 +16292,7 @@
 				)
 			)
 		)
-		(property "Footprint" "emc:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 25.4 260.6548 0)
 			(effects
 				(font
@@ -16477,7 +16559,7 @@
 				)
 			)
 		)
-		(property "Footprint" "emc:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 201.93 255.5748 0)
 			(effects
 				(font
@@ -17337,7 +17419,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "emc:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 31.4452 242.57 0)
 			(effects
 				(font
